@@ -1,0 +1,27 @@
+=====================================================================
+
+Hermes AntiVenom: Core Dependencies
+
+=====================================================================
+
+The core Hermes AntiVenom engine relies strictly on Python's
+
+built-in standard library (re, unicodedata, json, logging).
+
+It requires NO external packages to run the base sanitizer and interceptor!
+
+Python Version Requirement: Python 3.9+
+
+=====================================================================
+
+--- Optional: Testing & Development ---
+
+pytest>=7.4.0
+
+--- Optional: Integration Libraries (Uncomment if using in agent frameworks) ---
+
+langchain-core>=0.1.0
+
+openai>=1.0.0
+
+pydantic>=2.0.0
